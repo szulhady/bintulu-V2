@@ -208,9 +208,9 @@ html {
 }
 </style>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 * {
   // font-family: "Montserrat", sans-serif;
   // font-family: "Montserrat", sans-serif;

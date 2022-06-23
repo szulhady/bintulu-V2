@@ -9,11 +9,11 @@
       </v-card>
     </div> -->
     <div
-      style="width: 70vw; height: height: calc(100vh - 100px) !important"
+      style="width: 70vw; height: height: -webkit-calc(~100vh - 100px) !important"
       class="map-cont"
     >
-      <div style="display: flex; justify-content: space-between">
-        <v-card-subtitle class="compact"> REAL-TIME DATA </v-card-subtitle>
+      <div class="time">
+        <div class="compact">REAL-TIME DATA</div>
         <div
           id="MyClockDisplay"
           class="clock compact"
@@ -140,7 +140,14 @@ export default {
 }
 </style>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+}
 .map-cont {
   @include frame-border;
   padding: 10px;

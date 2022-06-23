@@ -55,7 +55,7 @@ export default {};
 }
 .v-btn__content {
   white-space: normal;
-  flex: auto;
+  flex: unset !important;
 }
 a {
   text-decoration: none;

@@ -117,7 +117,7 @@ tr {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0px !important;
   font-size: 0.5em;
-  height: 5vh;
+  height: 5vh !important;
 }
 
 tbody tr:nth-of-type(even) {
@@ -126,15 +126,15 @@ tbody tr:nth-of-type(even) {
   /* background-color: rgb(255, 255, 255); */
   padding: 0px !important;
   color: #eee;
-  height: 5vh;
+  height: 5vh !important;
 }
 .v-data-table > .v-data-table__wrapper > table > thead > tr > th {
   font-size: 1.5em;
-  height: 5.3vh;
+  height: 5.3vh !important;
 }
 .v-data-table > .v-data-table__wrapper > table > tbody > tr > td {
   font-size: 1.5em;
-  height: 5.3vh;
+  height: 5.3vh !important;
 }
 tbody tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.3);

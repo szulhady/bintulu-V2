@@ -3,18 +3,21 @@
     "name": "inspire",
     "path": "/inspire",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_33e667fc"
   },
   {
     "name": "trends",
     "path": "/trends",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\trends.vue",
-    "chunkName": "pages/trends"
+    "chunkName": "pages/trends",
+    "_name": "_3b17647e"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_5d1369fa"
   }
 ]
