@@ -14,12 +14,12 @@ class isHigh {
   }
 }
 
-const maxO2 = 10;
-const maxLEL = 10;
-const maxVOC = 20;
-const maxNH3 = 20;
-const maxCL2 = 20;
-const maxH2S = 20;
+const maxO2 = -10;
+const maxLEL = -10;
+const maxVOC = -20;
+const maxNH3 = -20;
+const maxCL2 = -20;
+const maxH2S = -20;
 
 export default {
   data() {

@@ -2693,7 +2693,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "hr{margin:0 20px}.v-data-table.table-font.theme--dark{background-color:transparent!important;border-radius:10px;overflow:hidden}tr{background-color:rgba(0,0,0,.5);font-size:.5em}tbody tr:nth-of-type(2n),tr{padding:0!important;height:5vh!important}tbody tr:nth-of-type(2n){background-color:rgba(0,0,0,.4);color:#eee}.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,.v-data-table>.v-data-table__wrapper>table>thead>tr>th{font-size:1.5em;height:5.3vh!important}tbody tr:nth-of-type(odd){background-color:rgba(0,0,0,.3);padding:0!important;color:#eee;height:5vh!important}.v-data-table__wrapper{border-bottom-left-radius:8px;border-bottom-right-radius:8px}@media (max-width:500px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.8rem}th{background-color:#fff}.v-data-table__mobile-row:nth-of-type(odd){background-color:#e6f2f4}}@media (max-width:360px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.8rem}}@media (max-width:320px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.7rem}}@media (max-width:300px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.65rem}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, "hr{margin:0 20px}.v-data-table.table-font.theme--dark{background-color:transparent!important;border-radius:10px;overflow:hidden}tr{background-color:rgba(0,0,0,.5);font-size:.8em}tbody tr:nth-of-type(2n),tr{padding:0!important;height:5vh!important}tbody tr:nth-of-type(2n){background-color:rgba(0,0,0,.4);color:#eee}.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,.v-data-table>.v-data-table__wrapper>table>thead>tr>th{font-size:.9em!important;height:5.3vh!important}tbody tr:nth-of-type(odd){background-color:rgba(0,0,0,.3);padding:0!important;color:#eee;height:5vh!important}.v-data-table__wrapper{border-bottom-left-radius:8px;border-bottom-right-radius:8px}@media (max-width:500px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.8rem}th{background-color:#fff}.v-data-table__mobile-row:nth-of-type(odd){background-color:#e6f2f4}}@media (max-width:360px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.8rem}}@media (max-width:320px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.7rem}}@media (max-width:300px){.v-data-table__mobile-row__cell,.v-data-table__mobile-row__header{font-size:.65rem}}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -3361,12 +3361,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Status.vue?vue&type=template&id=fb1e0060&
-var Statusvue_type_template_id_fb1e0060_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-data-table',{staticClass:"table-font elevation-10",attrs:{"headers":_vm.headers,"items":_vm.status,"items-per-page":5,"hide-default-footer":""}})],1)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Status.vue?vue&type=template&id=c33fe986&
+var Statusvue_type_template_id_c33fe986_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('v-data-table',{staticClass:"table-font elevation-10",attrs:{"headers":_vm.headers,"items":_vm.status,"items-per-page":5,"hide-default-footer":""}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Status.vue?vue&type=template&id=fb1e0060&
+// CONCATENATED MODULE: ./components/Status.vue?vue&type=template&id=c33fe986&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(12);
@@ -11352,7 +11352,7 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = Object(componentNormalizer["a" /* default */])(
   components_Statusvue_type_script_lang_js_,
-  Statusvue_type_template_id_fb1e0060_render,
+  Statusvue_type_template_id_c33fe986_render,
   staticRenderFns,
   false,
   injectStyles,
@@ -11654,12 +11654,12 @@ module.exports.__inject__ = function (context) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps3.vue?vue&type=template&id=eb5601fe&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps3.vue?vue&type=template&id=827ad4a6&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticStyle:{"width":"100%","height":"calc(100vh - 120px)"},attrs:{"id":"googleMap"}},[])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Maps3.vue?vue&type=template&id=eb5601fe&
+// CONCATENATED MODULE: ./components/Maps3.vue?vue&type=template&id=827ad4a6&
 
 // EXTERNAL MODULE: external "mqtt"
 var external_mqtt_ = __webpack_require__(93);
@@ -11685,12 +11685,12 @@ class isHigh {
 
 }
 
-const maxO2 = 10;
-const maxLEL = 10;
-const maxVOC = 20;
-const maxNH3 = 20;
-const maxCL2 = 20;
-const maxH2S = 20;
+const maxO2 = -10;
+const maxLEL = -10;
+const maxVOC = -20;
+const maxNH3 = -20;
+const maxCL2 = -20;
+const maxH2S = -20;
 /* harmony default export */ var Maps3vue_type_script_lang_js_ = ({
   data() {
     return {
@@ -12983,7 +12983,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".time{display:flex;justify-content:space-between;align-items:center;height:4vh}.map-cont{border:5px solid #000;-o-border-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle%3Epath{animation:stroke .5s linear}%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23083361'/%3E%3Cstop offset='25%25' stop-color='%23094687'/%3E%3Cstop offset='50%25' stop-color='%231B5DA4'/%3E%3Cstop offset='100%25' stop-color='%230F355D'/%3E%3C/linearGradient%3E%3Cpath d='M0 3V0h3M97 0h3v3M0 97v3h3M97 100h3v-3' stroke='%23eee' stroke-width='3' stroke-dasharray='388'/%3E%3Cpath d='M0 5v90M100 5v90M5 0h90M5 100h90' stroke='%23eee' stroke-dasharray='388'/%3E%3C/svg%3E\") 2;border-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle%3Epath{animation:stroke .5s linear}%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23083361'/%3E%3Cstop offset='25%25' stop-color='%23094687'/%3E%3Cstop offset='50%25' stop-color='%231B5DA4'/%3E%3Cstop offset='100%25' stop-color='%230F355D'/%3E%3C/linearGradient%3E%3Cpath d='M0 3V0h3M97 0h3v3M0 97v3h3M97 100h3v-3' stroke='%23eee' stroke-width='3' stroke-dasharray='388'/%3E%3Cpath d='M0 5v90M100 5v90M5 0h90M5 100h90' stroke='%23eee' stroke-dasharray='388'/%3E%3C/svg%3E\") 2;padding:10px;margin:10px .3vw}.compact{padding:0;margin:0 0 5px;font-size:.9rem}.clock{color:#fff;font-family:Orbitron;letter-spacing:1px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".left{width:70vw}.left,.right{height:calc(100vh - 65px)!important}.right{width:28.7vw}.time{display:flex;justify-content:space-between;align-items:center;height:4vh}.map-cont{border:5px solid #000;-o-border-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle%3Epath{animation:stroke .5s linear}%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23083361'/%3E%3Cstop offset='25%25' stop-color='%23094687'/%3E%3Cstop offset='50%25' stop-color='%231B5DA4'/%3E%3Cstop offset='100%25' stop-color='%230F355D'/%3E%3C/linearGradient%3E%3Cpath d='M0 3V0h3M97 0h3v3M0 97v3h3M97 100h3v-3' stroke='%23eee' stroke-width='3' stroke-dasharray='388'/%3E%3Cpath d='M0 5v90M100 5v90M5 0h90M5 100h90' stroke='%23eee' stroke-dasharray='388'/%3E%3C/svg%3E\") 2;border-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cstyle%3Epath{animation:stroke .5s linear}%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23083361'/%3E%3Cstop offset='25%25' stop-color='%23094687'/%3E%3Cstop offset='50%25' stop-color='%231B5DA4'/%3E%3Cstop offset='100%25' stop-color='%230F355D'/%3E%3C/linearGradient%3E%3Cpath d='M0 3V0h3M97 0h3v3M0 97v3h3M97 100h3v-3' stroke='%23eee' stroke-width='3' stroke-dasharray='388'/%3E%3Cpath d='M0 5v90M100 5v90M5 0h90M5 100h90' stroke='%23eee' stroke-dasharray='388'/%3E%3C/svg%3E\") 2;padding:10px;margin:10px .3vw}.compact{padding:0;margin:0 0 5px;font-size:.9rem}.clock{color:#fff;font-family:Orbitron;letter-spacing:1px}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -13000,12 +13000,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=61492a6f&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticStyle:{"display":"flex"}},[_vm._ssrNode("<div class=\"map-cont\" style=\"width: 70vw; height: height: -webkit-calc(~100vh - 100px) !important\">","</div>",[_vm._ssrNode("<div class=\"time\"><div class=\"compact\">REAL-TIME DATA</div> <div id=\"MyClockDisplay\" onload=\"showTime()\" class=\"clock compact\"></div></div> "),_c('Maps',{attrs:{"a":_vm.a}})],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"map-cont\" style=\"width: 28.7vw; height: height: calc(100vh - 100px) !important\">","</div>",[_c('Status'),_vm._ssrNode(" "),_vm._ssrNode("<div style=\"padding-top: 2vh\">","</div>",[_c('WeatherMain',{attrs:{"weather":_vm.forecasts[0].weather[0].main,"data":_vm.weather}})],1),_vm._ssrNode(" "),_c('v-row',{staticStyle:{"padding-top":"3vh"}},[_c('v-col',{attrs:{"cols":"4"}},[_c('Weather',{attrs:{"weather":_vm.forecasts[1].weather[0].main,"temp":_vm.forecasts[1].main.temp,"description":_vm.forecasts[1].weather[0].description,"date":_vm.forecasts[1].dt_txt}})],1),_vm._v(" "),_c('v-col',{attrs:{"cols":"4"}},[_c('Weather',{attrs:{"weather":_vm.forecasts[2].weather[0].main,"temp":_vm.forecasts[2].main.temp,"description":_vm.forecasts[2].weather[0].description,"date":_vm.forecasts[2].dt_txt}})],1),_vm._v(" "),_c('v-col',{attrs:{"cols":"4"}},[_c('Weather',{attrs:{"weather":_vm.forecasts[3].weather[0].main,"temp":_vm.forecasts[3].main.temp,"description":_vm.forecasts[3].weather[0].description,"date":_vm.forecasts[3].dt_txt}})],1)],1),_vm._ssrNode(" "),_vm._ssrNode("<div style=\"margin-top: 2vh\">","</div>",[_c('Notification')],1)],2)],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=268992e7&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticStyle:{"display":"flex"}},[_vm._ssrNode("<div class=\"map-cont left\">","</div>",[_vm._ssrNode("<div class=\"time\"><div class=\"compact\">REAL-TIME DATA</div> <div id=\"MyClockDisplay\" onload=\"showTime()\" class=\"clock compact\"></div></div> "),_c('Maps',{attrs:{"a":_vm.a}})],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"map-cont right\">","</div>",[_c('Status'),_vm._ssrNode(" "),_vm._ssrNode("<div style=\"padding-top: 2vh\">","</div>",[_c('WeatherMain',{attrs:{"weather":_vm.forecasts[0].weather[0].main,"data":_vm.weather}})],1),_vm._ssrNode(" "),_c('v-row',{staticStyle:{"padding-top":"3vh"}},[_c('v-col',{attrs:{"cols":"4"}},[_c('Weather',{attrs:{"weather":_vm.forecasts[1].weather[0].main,"temp":_vm.forecasts[1].main.temp,"description":_vm.forecasts[1].weather[0].description,"date":_vm.forecasts[1].dt_txt}})],1),_vm._v(" "),_c('v-col',{attrs:{"cols":"4"}},[_c('Weather',{attrs:{"weather":_vm.forecasts[2].weather[0].main,"temp":_vm.forecasts[2].main.temp,"description":_vm.forecasts[2].weather[0].description,"date":_vm.forecasts[2].dt_txt}})],1),_vm._v(" "),_c('v-col',{attrs:{"cols":"4"}},[_c('Weather',{attrs:{"weather":_vm.forecasts[3].weather[0].main,"temp":_vm.forecasts[3].main.temp,"description":_vm.forecasts[3].weather[0].description,"date":_vm.forecasts[3].dt_txt}})],1)],1),_vm._ssrNode(" "),_vm._ssrNode("<div style=\"margin-top: 2vh\">","</div>",[_c('Notification')],1)],2)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=61492a6f&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=268992e7&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(12);
@@ -13036,11 +13036,6 @@ var external_moment_timezone_ = __webpack_require__(94);
 var external_moment_timezone_default = /*#__PURE__*/__webpack_require__.n(external_moment_timezone_);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
-//
-//
-//
-//
-//
 //
 //
 //

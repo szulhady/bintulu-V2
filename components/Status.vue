@@ -116,7 +116,7 @@ tr {
   /* background-color: rgb(162, 216, 224); */
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0px !important;
-  font-size: 0.5em;
+  font-size: 0.8em;
   height: 5vh !important;
 }
 
@@ -129,11 +129,11 @@ tbody tr:nth-of-type(even) {
   height: 5vh !important;
 }
 .v-data-table > .v-data-table__wrapper > table > thead > tr > th {
-  font-size: 1.5em;
+  font-size: 0.9em !important;
   height: 5.3vh !important;
 }
 .v-data-table > .v-data-table__wrapper > table > tbody > tr > td {
-  font-size: 1.5em;
+  font-size: 0.9em !important;
   height: 5.3vh !important;
 }
 tbody tr:nth-of-type(odd) {

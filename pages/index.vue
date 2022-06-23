@@ -8,10 +8,8 @@
         <v-card-subtitle> space </v-card-subtitle>
       </v-card>
     </div> -->
-    <div
-      style="width: 70vw; height: height: -webkit-calc(~100vh - 100px) !important"
-      class="map-cont"
-    >
+    <!-- style="width: 70vw; height: height: -webkit-calc(~100vh - 100px) !important" -->
+    <div class="map-cont left">
       <div class="time">
         <div class="compact">REAL-TIME DATA</div>
         <div
@@ -22,10 +20,7 @@
       </div>
       <Maps :a="a" />
     </div>
-    <div
-      style="width: 28.7vw; height: height: calc(100vh - 100px) !important"
-      class="map-cont"
-    >
+    <div class="map-cont right">
       <!-- <v-card>
         <v-card-subtitle> space </v-card-subtitle>
       </v-card> -->
@@ -141,7 +136,14 @@ export default {
 </style>
 <style lang="scss">
 // @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-
+.left {
+  width: 70vw;
+  height: calc(100vh - 65px) !important;
+}
+.right {
+  width: 28.7vw;
+  height: calc(100vh - 65px) !important;
+}
 .time {
   display: flex;
   justify-content: space-between;
