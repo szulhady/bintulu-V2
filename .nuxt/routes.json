@@ -1,0 +1,20 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "trends",
+    "path": "/trends",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\trends.vue",
+    "chunkName": "pages/trends"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

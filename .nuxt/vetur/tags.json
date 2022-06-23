@@ -1,0 +1,38 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Maps": {
+    "description": "Auto imported from components/Maps.vue"
+  },
+  "Maps2": {
+    "description": "Auto imported from components/Maps2.vue"
+  },
+  "Maps3": {
+    "description": "Auto imported from components/Maps3.vue"
+  },
+  "MultipleLineChart": {
+    "description": "Auto imported from components/MultipleLineChart.vue"
+  },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
+  "SensorButton": {
+    "description": "Auto imported from components/SensorButton.vue"
+  },
+  "SingleLineChart": {
+    "description": "Auto imported from components/SingleLineChart.vue"
+  },
+  "Status": {
+    "description": "Auto imported from components/Status.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  },
+  "Weather": {
+    "description": "Auto imported from components/Weather.vue"
+  },
+  "WeatherMain2": {
+    "description": "Auto imported from components/WeatherMain2.vue"
+  }
+}
