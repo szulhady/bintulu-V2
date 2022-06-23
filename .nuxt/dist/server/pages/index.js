@@ -11654,12 +11654,12 @@ module.exports.__inject__ = function (context) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps3.vue?vue&type=template&id=827ad4a6&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps3.vue?vue&type=template&id=2e2cebd8&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticStyle:{"width":"100%","height":"calc(100vh - 120px)"},attrs:{"id":"googleMap"}},[])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Maps3.vue?vue&type=template&id=827ad4a6&
+// CONCATENATED MODULE: ./components/Maps3.vue?vue&type=template&id=2e2cebd8&
 
 // EXTERNAL MODULE: external "mqtt"
 var external_mqtt_ = __webpack_require__(93);
@@ -11685,12 +11685,12 @@ class isHigh {
 
 }
 
-const maxO2 = -10;
-const maxLEL = -10;
-const maxVOC = -20;
-const maxNH3 = -20;
-const maxCL2 = -20;
-const maxH2S = -20;
+const maxO2 = 21;
+const maxLEL = 1.5;
+const maxVOC = 10;
+const maxNH3 = 10;
+const maxCL2 = 10;
+const maxH2S = 10;
 /* harmony default export */ var Maps3vue_type_script_lang_js_ = ({
   data() {
     return {
