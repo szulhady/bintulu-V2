@@ -77,7 +77,7 @@ export default {
   /* width: 300px; */
   /* height: 320px; */
   /* background: #271f40 !important; */
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3) !important;
   border: 1px solid #eeeeee;
   color: white !important;
   /* border: 4px solid rgb(125, 176, 216); */

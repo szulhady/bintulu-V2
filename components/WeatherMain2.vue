@@ -128,7 +128,7 @@ export default {
   /* height: 300px; */
   /* background: #271f40 !important; */
   /* background-image: url(~/assets/weather.jpg); */
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3) !important;
   background-size: cover;
   color: white !important;
   filter: blur(7px);
