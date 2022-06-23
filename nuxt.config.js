@@ -86,4 +86,7 @@ export default {
     },
   },
   // googleMaps: {apiKey: 'AIzaSyAeDeYlQ30SsflxnhsDQmh24qeTuzTdBic'}
+  server: {
+    port: 8000 // default: 3000
+  }
 }
