@@ -111,7 +111,7 @@ export default {
     getDataHourly: function (station, sensorVal) {
       this.setLoading1(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/hourly`, {
+        .$get(`http://167.99.75.232:7777/api/hourly`, {
           // .$get(`http://localhost:7777/api/hourly`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/hourly`, {
           // .$get(`/api/hourly`, {
@@ -148,7 +148,7 @@ export default {
     getDataHourlyLNG: function (station, sensorVal, pid) {
       this.setLoading1(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/hourlyLNG`, {
+        .$get(`http://167.99.75.232:7777/api/hourlyLNG`, {
           // .$get(`http://localhost:7777/api/hourlyLNG`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/hourly`, {
           // .$get(`/api/hourly`, {
@@ -186,7 +186,7 @@ export default {
     getDataDaily: function (station, sensorVal) {
       this.setLoading2(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/daily`, {
+        .$get(`http://167.99.75.232:7777/api/daily`, {
           // .$get(`http://localhost:7777/api/daily`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/daily`, {
           // .$get(`/api/daily`, {
@@ -220,7 +220,7 @@ export default {
     getDataDailyLNG: function (station, sensorVal, pid) {
       this.setLoading2(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/dailyLNG`, {
+        .$get(`http://167.99.75.232:7777/api/dailyLNG`, {
           // .$get(`http://localhost:7777/api/dailyLNG`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/daily`, {
           // .$get(`/api/daily`, {
@@ -255,7 +255,7 @@ export default {
     getDataMonthly: function (station, sensorVal) {
       this.setLoading3(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/monthly`, {
+        .$get(`http://167.99.75.232:7777/api/monthly`, {
           // .$get(`http://localhost:7777/api/monthly`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/monthly`, {
           // .$get(`/api/monthly`, {
@@ -295,7 +295,7 @@ export default {
     getDataMonthlyLNG: function (station, sensorVal, pid) {
       this.setLoading3(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/monthlyLNG`, {
+        .$get(`http://167.99.75.232:7777/api/monthlyLNG`, {
           // .$get(`http://localhost:7777/api/monthlyLNG`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/monthly`, {
           // .$get(`/api/monthly`, {

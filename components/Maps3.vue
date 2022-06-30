@@ -293,7 +293,7 @@ export default {
       });
       var infowindow = new google.maps.InfoWindow({
         content: `<div class="container1"><div class="ui header">Petrochemical Jetty</div><div class="data">O2 : Waiting...</div><div class="data">LEL : Waiting...</div><div class="data end">VOC : Waiting...</div></div>`,
-        pixelOffset: new google.maps.Size(-160, 90),
+        pixelOffset: new google.maps.Size(-120, 100),
       });
       infowindow.open(map, marker);
 
@@ -308,7 +308,7 @@ export default {
       });
       var infowindow2 = new google.maps.InfoWindow({
         content: `<div class="container2"><div class="ui header">Ammonia Whaft Jetty</div><div class="data">O2 : Waiting...</div><div class="data">LEL : Waiting...</div><div class="data end">NH3 : Waiting...</div></div>`,
-        pixelOffset: new google.maps.Size(-160, 100),
+        pixelOffset: new google.maps.Size(-115, 100),
       });
       infowindow2.open(map, marker2);
 
@@ -320,7 +320,7 @@ export default {
       });
       var infowindow3 = new google.maps.InfoWindow({
         content: `<div class="container3"><div class="ui2 header">OBB Jetty</div><div class="data">O2 : Waiting...</div><div class="data">LEL : Waiting...</div><div class="data end">VOC : Waiting...</div></div>`,
-        pixelOffset: new google.maps.Size(125, 90),
+        pixelOffset: new google.maps.Size(115, 80),
       });
       infowindow3.open(map, marker3);
 
@@ -335,7 +335,7 @@ export default {
       });
       var infowindow4 = new google.maps.InfoWindow({
         content: `<div class="container4"><div class="ui4 header">DG yard</div><div class="data">O2 :Waiting...</div><div class="data">LEL : Waiting...</div><div class="data">VOC : Waiting...</div><div class="data">NH3 : Waiting...</div><div class="data">CL2 : Waiting...</div><div class="data end">H2S : Waiting...</div></div>`,
-        pixelOffset: new google.maps.Size(125, 130),
+        pixelOffset: new google.maps.Size(120, 120),
       });
       infowindow4.open(map, marker4);
 
@@ -350,7 +350,7 @@ export default {
       });
       var infowindow5 = new google.maps.InfoWindow({
         content: `<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : Waiting...</div><div class="data">LEL 2 : Waiting...</div><div class="data">LEL 3 : Waiting...</div><div class="data">LEL 4 : Waiting...</div><div class="data end">LEL 5 : Waiting...</div></div>`,
-        pixelOffset: new google.maps.Size(-160, 115),
+        pixelOffset: new google.maps.Size(-120, 130),
       });
       infowindow5.open(map, marker5);
       const { host, port, endpoint, ...options } = this.connection;
@@ -817,8 +817,8 @@ export default {
 }
 
 .ui {
-  font-weight: bold;
-  width: 220px;
+  font-weight: bolder;
+  width: 150px;
   padding-bottom: 5px;
 }
 .ui2 {
@@ -833,6 +833,8 @@ export default {
 }
 .data {
   padding: 5px 0 5px 10px;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 .end {

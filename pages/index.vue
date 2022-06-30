@@ -26,11 +26,23 @@
       </v-card> -->
       <Status />
       <div style="padding-top: 2vh">
-        <WeatherMain :weather="forecasts[0].weather[0].main" :data="weather" />
+        <WeatherMain
+          :weather="weatherToday.weather[0].main"
+          :data="weatherToday"
+        />
+        <!-- <WeatherMain :weather="forecasts[0].weather[0].main" :data="weather" /> -->
       </div>
       <v-row style="padding-top: 3vh">
         <v-col cols="4">
-          <Weather
+          <WeatherForecast
+            :weather="forecasts[0].weather[0].main"
+            :temp="forecasts[0].main.temp"
+            :description="forecasts[0].weather[0].description"
+            :date="forecasts[0].dt_txt"
+          />
+        </v-col>
+        <v-col cols="4">
+          <WeatherForecast
             :weather="forecasts[1].weather[0].main"
             :temp="forecasts[1].main.temp"
             :description="forecasts[1].weather[0].description"
@@ -38,19 +50,11 @@
           />
         </v-col>
         <v-col cols="4">
-          <Weather
+          <WeatherForecast
             :weather="forecasts[2].weather[0].main"
             :temp="forecasts[2].main.temp"
             :description="forecasts[2].weather[0].description"
             :date="forecasts[2].dt_txt"
-          />
-        </v-col>
-        <v-col cols="4">
-          <Weather
-            :weather="forecasts[3].weather[0].main"
-            :temp="forecasts[3].main.temp"
-            :description="forecasts[3].weather[0].description"
-            :date="forecasts[3].dt_txt"
           />
         </v-col>
         <!-- <v-col cols="6"><Weather /> </v-col> -->
@@ -71,7 +75,7 @@ import Notification from "~/components/Notification.vue";
 import Maps from "~/components/Maps3.vue";
 import Status from "~/components/Status.vue";
 import WeatherMain from "~/components/WeatherMain2.vue";
-import Weather from "~/components/Weather";
+import WeatherForecast from "~/components/WeatherForecast";
 
 // import moment from "moment";
 import moment from "moment-timezone";
@@ -94,7 +98,7 @@ export default {
     Maps,
     Status,
     WeatherMain,
-    Weather,
+    WeatherForecast,
   },
   methods: {
     showTime: function () {
@@ -111,6 +115,7 @@ export default {
   },
   mounted() {
     this.showTime();
+    console.log(this.forecasts);
     setInterval(() => {
       this.a = Math.random() * 10;
     }, 1000);
@@ -118,7 +123,7 @@ export default {
   computed: {
     ...mapState({
       forecasts: (state) => state.forecasts,
-      weather: (state) => state.weather,
+      weatherToday: (state) => state.weather,
     }),
   },
 };

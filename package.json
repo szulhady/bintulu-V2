@@ -17,6 +17,8 @@
     "mqtt": "^4.3.7",
     "nuxt": "^2.14.6",
     "nuxt-gmaps": "^1.2.10",
+    "v-calendar": "^2.3.2",
+    "vue-loading-overlay": "^3.0.1",
     "vuejs-google-maps": "^0.2.0"
   },
   "devDependencies": {

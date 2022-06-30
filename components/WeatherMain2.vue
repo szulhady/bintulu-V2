@@ -27,7 +27,7 @@
         <div>
           <div>
             <v-card-title class="display-2">
-              {{ data.temperature }} °C
+              {{ data.main.temp }} °C
             </v-card-title>
           </div>
           <!-- <div> -->
@@ -76,23 +76,23 @@
           <!-- <div> -->
           <!-- <v-card-subtitle class="bold"> Humidity: {{ 10 }}% </v-card-subtitle> -->
           <v-card-subtitle class="bold">
-            Humidity: {{ data.humidity }}%
+            Humidity: {{ data.main.humidity }}%
           </v-card-subtitle>
           <!-- <v-card-subtitle class="bold"> Rainfall: {{ 20 }}mm </v-card-subtitle> -->
-          <v-card-subtitle class="bold">
+          <!-- <v-card-subtitle class="bold">
             Rainfall: {{ data.rainfall }}mm
-          </v-card-subtitle>
+          </v-card-subtitle> -->
           <!-- </div> -->
           <!-- <div> -->
           <v-card-subtitle class="bold">
             <!-- Wind: {{ 1.5 }}m/s, {{ N }}° -->
-            Wind: {{ data.windSpeed }}m/s, {{ data.windDirection }}°
+            Wind: {{ data.wind.speed }}m/s, {{ data.wind.deg }}°
           </v-card-subtitle>
           <!-- <v-card-subtitle class="bold">
             Pressure: {{ 1016 }}Pa
           </v-card-subtitle> -->
           <v-card-subtitle class="bold">
-            Pressure: {{ data.pressure }}Pa
+            Pressure: {{ data.main.pressure }}Pa
           </v-card-subtitle>
           <!-- </div> -->
           <!-- </div> -->

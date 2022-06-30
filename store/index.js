@@ -6,6 +6,21 @@ export const state = ()=>({
   url_base: 'https://api.openweathermap.org/data/2.5/',
   query: '',
   // weather: {},
+  // forecasts: [
+  //   {
+  //     dt_txt:"",
+  //     main:{
+  //       temp:""
+  //     },
+  //     weather:[
+  //       {
+  //         description:"",
+  //         icon:""
+  //       }
+  //     ]
+  //   },
+
+  // ],
   forecasts: [
     {
       dt_txt:"",
@@ -69,13 +84,48 @@ export const state = ()=>({
       ]
     },
   ],
-  weather:{
-    windDirection:"North",
-    windSpeed:"1",
-    temperature:"28",
-    humidity:"20",
-    pressure:"101.32",
-    rainfall:"10"
+  weather:{                                                                                     
+    coord: {
+      lon: "",
+      lat:""
+    },
+    weather: [
+      {
+        id: "",
+        main: '',
+        description: "",
+        icon: ''
+      }
+    ],
+    base: '',
+    main: {
+      temp: "",
+      feels_like: "",
+      temp_min: "",
+      temp_max: "",
+      pressure: "",
+      humidity: ""
+    },
+    visibility: "",
+    wind: {
+      speed: "",
+      deg: ""
+    },
+    clouds: {
+      all: ""
+    },
+    dt: "",
+    sys: {
+      type: "",
+      id: "",
+      country: 'MY',
+      sunrise: "",
+      sunset: ""
+    },
+    timezone: "",
+    id: "",
+    name: "",
+    cod: ""
   },
   active:0,
   activeSensor:0,
@@ -1139,9 +1189,9 @@ state.weather = {
   // api for OpenWeatherMap
   SET_WEATHER (state, value) {
     state.weather = value
-    // console.log(value)
   },
   SET_FORECASTS (state, value) {
+    // const data = value.list.filter(forecast => forecast.dt_txt.slice(-8) === '12:00:00')
     const data = value.list.filter(forecast => forecast.dt_txt.slice(-8) === '12:00:00' && forecast.dt_txt.slice(0, 10) !== state.today)
     state.forecasts = data
   },
@@ -1149,6 +1199,7 @@ state.weather = {
     state.query = query
   },
   SET_TODAY (state, value) {
+    // console.log(value)
     state.today = value
   },
   setActiveGraph(state, payload){
@@ -1166,12 +1217,14 @@ export const actions = {
 
   },
   async setWeather ({ commit }) {
-    const { data } = await this.$axios.get(`${this.state.url_base}weather?q=${this.state.query}&units=metric&APPID=${this.state.api_key}`).catch(() => {
+    const { data } = await this.$axios.get(`https://api.openweathermap.org/data/2.5/weather?q=bintulu&units=metric&appid=45a2a23d23c78dbe34c5fbd75a591573`).catch(() => {
+    // const { data } = await this.$axios.get(`${this.state.url_base}weather?q=${this.state.query}&units=metric&APPID=${this.state.api_key}`).catch(() => {
       // simple error catch
       alert('Unable to find forecast for this location, please try a different location')
+     
     })
-    
     commit('SET_WEATHER', data)
+    // console.log(data)
   },
   // sets todays date in correct format for filters
   setToday ({ commit }) {

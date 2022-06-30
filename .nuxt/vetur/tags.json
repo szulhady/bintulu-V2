@@ -1,4 +1,7 @@
 {
+  "DatePicker": {
+    "description": "Auto imported from components/DatePicker.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
@@ -10,6 +13,9 @@
   },
   "Maps3": {
     "description": "Auto imported from components/Maps3.vue"
+  },
+  "MonthPicker": {
+    "description": "Auto imported from components/MonthPicker.vue"
   },
   "MultipleLineChart": {
     "description": "Auto imported from components/MultipleLineChart.vue"
@@ -29,8 +35,8 @@
   "VuetifyLogo": {
     "description": "Auto imported from components/VuetifyLogo.vue"
   },
-  "Weather": {
-    "description": "Auto imported from components/Weather.vue"
+  "WeatherForecast": {
+    "description": "Auto imported from components/WeatherForecast.vue"
   },
   "WeatherMain2": {
     "description": "Auto imported from components/WeatherMain2.vue"

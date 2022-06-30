@@ -6,15 +6,17 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<DatePicker>` | `<date-picker>` (components/DatePicker.vue)
 - `<Logo>` | `<logo>` (components/Logo.vue)
 - `<Maps>` | `<maps>` (components/Maps.vue)
 - `<Maps2>` | `<maps2>` (components/Maps2.vue)
 - `<Maps3>` | `<maps3>` (components/Maps3.vue)
+- `<MonthPicker>` | `<month-picker>` (components/MonthPicker.vue)
 - `<MultipleLineChart>` | `<multiple-line-chart>` (components/MultipleLineChart.vue)
 - `<Notification>` | `<notification>` (components/Notification.vue)
 - `<SensorButton>` | `<sensor-button>` (components/SensorButton.vue)
 - `<SingleLineChart>` | `<single-line-chart>` (components/SingleLineChart.vue)
 - `<Status>` | `<status>` (components/Status.vue)
 - `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
-- `<Weather>` | `<weather>` (components/Weather.vue)
+- `<WeatherForecast>` | `<weather-forecast>` (components/WeatherForecast.vue)
 - `<WeatherMain2>` | `<weather-main2>` (components/WeatherMain2.vue)

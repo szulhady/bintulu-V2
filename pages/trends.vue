@@ -1,7 +1,13 @@
 <template>
   <section style="display: flex">
     <div
-      style="width: 22vw; height: height: calc(100vh - 100px) !important; padding-left:1vw; padding-right:1vw; position:relative"
+      style="
+        width: 22vw;
+        height: calc(100vh - 100px) !important;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        position: relative;
+      "
     >
       <div v-for="(station, index) in stations" :key="index" class="flex">
         <v-card
@@ -16,29 +22,45 @@
           </v-card-subtitle>
         </v-card>
       </div>
-
-      <v-btn
-        to="/"
-        class="neon"
-        style="
-          width: 100%;
-          height: 5vh;
-          font-size: 0.7em;
-          display: flex;
-          justify-content: center;
-          text-align: center;
-        "
-      >
-        <!-- <router-link to="/trends"> View Trends </router-link> -->
-        View summary
-      </v-btn>
+      <div style="display: flex; justify-content: space-evenly">
+        <v-btn
+          to="/"
+          class="neon"
+          style="
+            width: 40%;
+            height: 5vh;
+            font-size: 0.7em;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            z-index: 2;
+          "
+        >
+          Back to summary
+        </v-btn>
+        <v-btn
+          to="/download"
+          class="neon"
+          style="
+            width: 40%;
+            height: 5vh;
+            font-size: 0.7em;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            z-index: 1;
+          "
+        >
+          Go to download
+        </v-btn>
+      </div>
       <div
         class="loading2"
         v-if="loading1 || loading2 || loading3 || loading4"
       ></div>
     </div>
     <div
-      style="width: 78vw; height: height: calc(100vh - 100px) !important; padding:1vw"
+      style="width: 78vw; height: calc(100vh - 100px) !important; padding: 1vw"
     >
       <div class="map-con">
         <v-card-title>Trends</v-card-title>
@@ -117,6 +139,10 @@ import SensorButton from "~/components/SensorButton.vue";
 import SingleLineChart from "~/components/SingleLineChart";
 import MultipleLineChart from "~/components/MultipleLineChart";
 export default {
+  transition: {
+    name: "home",
+    mode: "out-in",
+  },
   data() {
     return {
       connection: {
@@ -231,7 +257,7 @@ export default {
     getDataHourly: function (station, sensorVal) {
       this.setLoading1(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/hourly`, {
+        .$get(`http://167.99.75.232:7777/api/hourly`, {
           // .$get(`http://localhost:7777/api/hourly`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/hourly`, {
           // .$get(`/api/hourly`, {
@@ -268,7 +294,7 @@ export default {
     getDataDaily: function (station, sensorVal) {
       this.setLoading2(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/daily`, {
+        .$get(`http://167.99.75.232:7777/api/daily`, {
           // .$get(`http://localhost:7777/api/daily`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/daily`, {
           // .$get(`/api/daily`, {
@@ -302,7 +328,7 @@ export default {
     getDataMonthly: function (station, sensorVal) {
       this.setLoading3(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/monthly`, {
+        .$get(`http://167.99.75.232:7777/api/monthly`, {
           // .$get(`http://localhost:7777/api/monthly`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/monthly`, {
           // .$get(`/api/monthly`, {
@@ -342,7 +368,7 @@ export default {
     getDataHourlyLNG: function (station, sensorVal, pid) {
       this.setLoading1(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/hourlyLNG`, {
+        .$get(`http://167.99.75.232:7777/api/hourlyLNG`, {
           // .$get(`http://localhost:7777/api/hourlyLNG`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/hourly`, {
           // .$get(`/api/hourly`, {
@@ -380,7 +406,7 @@ export default {
     getDataDailyLNG: function (station, sensorVal, pid) {
       this.setLoading2(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/dailyLNG`, {
+        .$get(`http://167.99.75.232:7777/api/dailyLNG`, {
           // .$get(`http://localhost:7777/api/dailyLNG`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/daily`, {
           // .$get(`/api/daily`, {
@@ -415,7 +441,7 @@ export default {
     getDataMonthlyLNG: function (station, sensorVal, pid) {
       this.setLoading3(true);
       this.$axios
-        .$get(`http://165.22.243.184:7777/api/monthlyLNG`, {
+        .$get(`http://167.99.75.232:7777/api/monthlyLNG`, {
           // .$get(`http://localhost:7777/api/monthlyLNG`, {
           // .$get(`https://bintuluport-backend.herokuapp.com/api/monthly`, {
           // .$get(`/api/monthly`, {
@@ -748,6 +774,7 @@ export default {
   left: 0;
   bottom: 0;
   right: 0;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
@@ -812,6 +839,7 @@ export default {
   opacity: 0.6;
   pointer-events: none;
   transition: opacity 100ms linear;
+  z-index: 2000;
 }
 
 .neon::after {
@@ -821,7 +849,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--clr-neon);
+  /* background: var(--clr-neon); */
   box-shadow: 0 0 2em var(--clr-neon);
   z-index: -1;
   opacity: 0;

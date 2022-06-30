@@ -1,5 +1,12 @@
 [
   {
+    "name": "download",
+    "path": "/download",
+    "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\download.vue",
+    "chunkName": "pages/download",
+    "_name": "_f0e874e0"
+  },
+  {
     "name": "inspire",
     "path": "/inspire",
     "component": "C:\\\\Users\\\\Sea-Ic\\\\Desktop\\\\PROJECTS\\\\Bintulu V2.0\\\\bintulu-dashboard V2\\\\pages\\\\inspire.vue",

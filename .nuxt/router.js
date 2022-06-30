@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _f0e874e0 = () => interopDefault(import('..\\pages\\download.vue' /* webpackChunkName: "pages/download" */))
 const _33e667fc = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages/inspire" */))
 const _3b17647e = () => interopDefault(import('..\\pages\\trends.vue' /* webpackChunkName: "pages/trends" */))
 const _5d1369fa = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -20,6 +21,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/download",
+    component: _f0e874e0,
+    name: "download"
+  }, {
     path: "/inspire",
     component: _33e667fc,
     name: "inspire"
