@@ -575,7 +575,7 @@ export default {
             indexSensor: 0,
             data: message,
           };
-          console.log(data);
+          // console.log(data);
           // this.lel1 = message;
 
           // this.checkWarningRemarks(4);

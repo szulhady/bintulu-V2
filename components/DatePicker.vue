@@ -45,11 +45,9 @@
       <v-btn
         @click="
           () => {
-            range = {
-              start: null,
-              end: null,
-            };
             station = null;
+            start = null;
+            end = null;
             clear();
           }
         "
@@ -119,6 +117,7 @@ export default {
     download: function (station, start, end) {
       // this.setLoading1(true);
       console.log(start);
+      console.log(end);
       if (start == null || end == null) {
         alert("Please select valid date/s");
         return;
@@ -166,6 +165,12 @@ export default {
         let deactive = document.getElementById(i).classList.remove("active");
         // }
       }
+      this.range = {
+        start: null,
+        end: null,
+      };
+      console.log(this.start);
+      console.log(this.end);
     },
     console: function (index) {
       // console.log(index);
@@ -201,15 +206,19 @@ export default {
   },
   watch: {
     range: function (val) {
-      // console.log(val);
-      if (val != null) {
-        this.start = moment(this.range.start).format("YYYY-MM-DD");
-        this.end = moment(this.range.end).format("YYYY-MM-DD");
-        var dateList = this.getDatesBetweenDates(
-          this.range.start,
-          this.range.end
-        );
-      }
+      console.log(val);
+
+      if (val == null) return;
+      // if (val != null) {
+      this.start = moment(this.range.start).format("YYYY-MM-DD");
+      this.end = moment(this.range.end).format("YYYY-MM-DD");
+      var dateList = this.getDatesBetweenDates(
+        this.range.start,
+        this.range.end
+      );
+      console.log(this.start);
+      // }
+
       // this.reset = false;
       // console.log(dateList);
       // console.log(this.start, this.end);

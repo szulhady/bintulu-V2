@@ -5256,6 +5256,16 @@ const mutations = {
 
   },
 
+  checkWarningLNG(state, payload) {
+    const indexStation = payload.indexStation;
+    const indexSensor = payload.indexSensor;
+    const isHigh = payload.isHigh; // console.log(isHigh)
+
+    state.stations[indexStation].sensorData[indexSensor].isHigh = isHigh; // state.stations[indexStation].warnings=[]
+    // state.status[indexStation].remarks= []
+    // console.log(state.stations[indexStation].sensorData[indexSensor].isHigh)
+  },
+
   checkWarningRemarks(state, payload) {
     const indexStation = payload;
     state.stations[indexStation].warnings = [];

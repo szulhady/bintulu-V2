@@ -903,8 +903,7 @@ export const mutations = {
      state.server.speed = (data.Speed).slice(0,-2)
   }
   },
-  checkWarning(state, payload){
-    
+  checkWarning(state, payload){ 
     const indexStation = payload.indexStation
     const indexSensor = payload.indexSensor
     const isHigh = payload.isHigh
@@ -957,6 +956,16 @@ export const mutations = {
     // state.stations[indexStation].warnings=[]
     // state.status[indexStation].remarks= []
     // console.log(state.status[indexStation].remarks)
+  },
+  checkWarningLNG(state, payload){ 
+    const indexStation = payload.indexStation
+    const indexSensor = payload.indexSensor
+    const isHigh = payload.isHigh
+    // console.log(isHigh)
+    state.stations[indexStation].sensorData[indexSensor].isHigh=isHigh
+    // state.stations[indexStation].warnings=[]
+    // state.status[indexStation].remarks= []
+    // console.log(state.stations[indexStation].sensorData[indexSensor].isHigh)
   },
   checkWarningRemarks(state, payload){
     const indexStation = payload

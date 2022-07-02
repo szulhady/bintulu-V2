@@ -2979,7 +2979,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".gm-style .gm-style-iw-t:after{background:transparent;display:none}.gm-style .gm-style-iw-c{overflow:visible}.container1{background-color:rgba(0,0,0,.2);padding:10px}.container1:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;right:-15px;position:absolute;top:70px;transform:translate(-50%,-50%) rotate(-135deg);width:15px;overflow:visible}.container2{background-color:rgba(0,0,0,.2);padding:10px}.container2:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;right:-15px;position:absolute;top:70px;transform:translate(-50%,-50%) rotate(-135deg);width:15px;overflow:visible}.container3{background-color:rgba(0,0,0,.2);padding:10px}.container3:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;left:0;position:absolute;top:70px;transform:translate(-50%,-50%) rotate(45deg);width:15px;overflow:visible}.container4{background-color:rgba(0,0,0,.2);padding:10px}.container4:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;left:0;position:absolute;top:110px;transform:translate(-50%,-50%) rotate(45deg);width:15px;overflow:visible}.container5{background-color:rgba(0,0,0,.2);padding:10px}.container5:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;right:-15px;position:absolute;top:95px;transform:translate(-50%,-50%) rotate(-140deg);width:15px;overflow:visible}.ui{font-weight:bolder;width:150px;padding-bottom:5px}.ui2,.ui4{font-weight:700;width:150px;padding-bottom:5px}.data{padding:5px 0 5px 10px;font-weight:700;font-size:1em}#map{height:100vh;background:grey}.gm-style-iw+div{display:none!important}button.gm-ui-hover-effect{visibility:hidden}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".low{color:#000!important;font:normal}.high{color:red!important;text-shadow:2px 0 red!important}.gm-style .gm-style-iw-t:after{background:transparent;display:none}.gm-style .gm-style-iw-c{overflow:visible}.container1{background-color:rgba(0,0,0,.2);padding:10px}.container1:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;right:-15px;position:absolute;top:70px;transform:translate(-50%,-50%) rotate(-135deg);width:15px;overflow:visible}.container2{background-color:rgba(0,0,0,.2);padding:10px}.container2:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;right:-15px;position:absolute;top:70px;transform:translate(-50%,-50%) rotate(-135deg);width:15px;overflow:visible}.container3{background-color:rgba(0,0,0,.2);padding:10px}.container3:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;left:0;position:absolute;top:70px;transform:translate(-50%,-50%) rotate(45deg);width:15px;overflow:visible}.container4{background-color:rgba(0,0,0,.2);padding:10px}.container4:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;left:0;position:absolute;top:110px;transform:translate(-50%,-50%) rotate(45deg);width:15px;overflow:visible}.container5{background-color:rgba(0,0,0,.2);padding:10px}.container5:after{background:linear-gradient(45deg,rgba(0,0,0,.3) 50%,hsla(0,0%,100%,0) 51%,hsla(0,0%,100%,0)) rgba(0,0,0,.3);box-shadow:-2px 2px 2px 0 hsla(0,0%,69.8%,.4);content:\"\";height:15px;right:-15px;position:absolute;top:95px;transform:translate(-50%,-50%) rotate(-140deg);width:15px;overflow:visible}.ui{font-weight:bolder;width:150px;padding-bottom:5px}.ui2,.ui4{font-weight:700;width:150px;padding-bottom:5px}.data{padding:5px 0 5px 10px;font-weight:900;font-size:1.1em;letter-spacing:3px;text-shadow:2px 0 #888}#map{height:100vh;background:grey}.gm-style-iw+div{display:none!important}button.gm-ui-hover-effect{visibility:hidden}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -11708,12 +11708,12 @@ module.exports.__inject__ = function (context) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps3.vue?vue&type=template&id=7cb16e9b&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/Maps3.vue?vue&type=template&id=00f9c89a&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticStyle:{"width":"100%","height":"calc(100vh - 120px)"},attrs:{"id":"googleMap"}},[])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/Maps3.vue?vue&type=template&id=7cb16e9b&
+// CONCATENATED MODULE: ./components/Maps3.vue?vue&type=template&id=00f9c89a&
 
 // EXTERNAL MODULE: external "mqtt"
 var external_mqtt_ = __webpack_require__(95);
@@ -11739,12 +11739,12 @@ class isHigh {
 
 }
 
-const maxO2 = 21;
-const maxLEL = 1.5;
-const maxVOC = 10;
-const maxNH3 = 10;
-const maxCL2 = 10;
-const maxH2S = 10;
+const maxO2 = 20;
+const maxLEL = 1;
+const maxVOC = 0;
+const maxNH3 = 0;
+const maxCL2 = 0;
+const maxH2S = 0;
 /* harmony default export */ var Maps3vue_type_script_lang_js_ = ({
   data() {
     return {
@@ -11802,6 +11802,16 @@ const maxH2S = 10;
       } else {
         const payload = new isHigh(indexStation, indexSensor, false);
         this.checkWarning(payload);
+      }
+    },
+
+    checkLNGYard(indexStation, indexSensor, value, maxValue) {
+      if (value > maxValue) {
+        const payload = new isHigh(indexStation, indexSensor, true);
+        this.checkWarningLNG(payload);
+      } else {
+        const payload = new isHigh(indexStation, indexSensor, false);
+        this.checkWarningLNG(payload);
       }
     },
 
@@ -11968,7 +11978,7 @@ const maxH2S = 10;
         animation: google.maps.Animation.Drop
       });
       var infowindow = new google.maps.InfoWindow({
-        content: `<div class="container1"><div class="ui header">Petrochemical Jetty</div><div class="data">O2 : Waiting...</div><div class="data">LEL : Waiting...</div><div class="data end">VOC : Waiting...</div></div>`,
+        content: `<div class="container1"><div class="ui header">Petrochemical Jetty</div><div id="1O2" class="data">O2 : Waiting...</div><div id="1LEL" class="data">LEL : Waiting...</div><div id="1VOC" class="data end">VOC : Waiting...</div></div>`,
         pixelOffset: new google.maps.Size(-120, 100)
       });
       infowindow.open(map, marker); // Ammonia Whaft Jetty
@@ -11979,7 +11989,7 @@ const maxH2S = 10;
         animation: google.maps.Animation.Drop
       });
       var infowindow2 = new google.maps.InfoWindow({
-        content: `<div class="container2"><div class="ui header">Ammonia Whaft Jetty</div><div class="data">O2 : Waiting...</div><div class="data">LEL : Waiting...</div><div class="data end">NH3 : Waiting...</div></div>`,
+        content: `<div class="container2"><div class="ui header">Ammonia Whaft Jetty</div><div id="2O2" class="data">O2 : Waiting...</div><div id="2LEL" class="data">LEL : Waiting...</div><div id="2NH3" class="data end">NH3 : Waiting...</div></div>`,
         pixelOffset: new google.maps.Size(-115, 100)
       });
       infowindow2.open(map, marker2); // OBB Jetty
@@ -11990,7 +12000,7 @@ const maxH2S = 10;
         animation: google.maps.Animation.Drop
       });
       var infowindow3 = new google.maps.InfoWindow({
-        content: `<div class="container3"><div class="ui2 header">OBB Jetty</div><div class="data">O2 : Waiting...</div><div class="data">LEL : Waiting...</div><div class="data end">VOC : Waiting...</div></div>`,
+        content: `<div class="container3"><div class="ui2 header">OBB Jetty</div><div id="3O2" class="data">O2 : Waiting...</div><div id="3LEL" class="data">LEL : Waiting...</div><div id="3VOC" class="data end">VOC : Waiting...</div></div>`,
         pixelOffset: new google.maps.Size(115, 80)
       });
       infowindow3.open(map, marker3); // DG Yard
@@ -12001,7 +12011,7 @@ const maxH2S = 10;
         animation: google.maps.Animation.Drop
       });
       var infowindow4 = new google.maps.InfoWindow({
-        content: `<div class="container4"><div class="ui4 header">DG yard</div><div class="data">O2 :Waiting...</div><div class="data">LEL : Waiting...</div><div class="data">VOC : Waiting...</div><div class="data">NH3 : Waiting...</div><div class="data">CL2 : Waiting...</div><div class="data end">H2S : Waiting...</div></div>`,
+        content: `<div class="container4"><div class="ui4 header">DG yard</div><div id="4O2" class="data">O2 :Waiting...</div><div id="4LEL" class="data">LEL : Waiting...</div><div id="4VOC" class="data">VOC : Waiting...</div><div id="4NH3" class="data">NH3 : Waiting...</div><div id="4CL2" class="data">CL2 : Waiting...</div><div id="4H2S" class="data end">H2S : Waiting...</div></div>`,
         pixelOffset: new google.maps.Size(120, 120)
       });
       infowindow4.open(map, marker4); // LNG ISO Tank Yard
@@ -12012,7 +12022,7 @@ const maxH2S = 10;
         animation: google.maps.Animation.Drop
       });
       var infowindow5 = new google.maps.InfoWindow({
-        content: `<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : Waiting...</div><div class="data">LEL 2 : Waiting...</div><div class="data">LEL 3 : Waiting...</div><div class="data">LEL 4 : Waiting...</div><div class="data end">LEL 5 : Waiting...</div></div>`,
+        content: `<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div id="5LEL1" class="data">LEL 1 : Waiting...</div><div id="5LEL2" class="data">LEL 2 : Waiting...</div><div id="5LEL3" class="data">LEL 3 : Waiting...</div><div id="5LEL4" class="data">LEL 4 : Waiting...</div><div id="5LEL5" class="data end">LEL 5 : Waiting...</div></div>`,
         pixelOffset: new google.maps.Size(-120, 130)
       });
       infowindow5.open(map, marker5);
@@ -12046,7 +12056,7 @@ const maxH2S = 10;
           message = JSON.parse(message);
 
           if (message.JID == 1) {
-            infowindow.setContent(`<div class="container1"><div class="ui header">Petrochemical Jetty</div><div class="data">O2 : ${message.O2}</div><div class="data">LEL : ${message.LEL}</div><div class="data end">VOC : ${message.VOC}</div></div>`); // this.checkWarning();
+            infowindow.setContent(`<div class="container1"><div class="ui header">Petrochemical Jetty</div><div id="1O2"  class="data">O2 : ${message.O2}</div><div id="1LEL" class="data">LEL : ${message.LEL}</div><div id="1VOC" class="data end">VOC : ${message.VOC}</div></div>`); // this.checkWarning();
             // const data = {
             //   indexStation: 0,
             //   indexSensor: 3,
@@ -12057,11 +12067,32 @@ const maxH2S = 10;
 
             this.check(0, 0, message.O2, maxO2);
             this.check(0, 1, message.LEL, maxLEL);
-            this.check(0, 2, message.VOC, maxVOC); // this.insertCurrentArray(data);
-            // this.adddata(0);
+            this.check(0, 2, message.VOC, maxVOC);
+            let a = document.getElementById("1O2");
+            let b = document.getElementById("1LEL");
+            let c = document.getElementById("1VOC");
+
+            if (this.sensors[0].sensorData[0].isHigh == true) {
+              a.classList.add("high");
+            } else {
+              a.classList.remove("high");
+            }
+
+            if (this.sensors[0].sensorData[1].isHigh == true) {
+              b.classList.add("high");
+            } else {
+              b.classList.remove("high");
+            }
+
+            if (this.sensors[0].sensorData[2].isHigh == true) {
+              c.classList.add("high");
+            } else {
+              c.classList.remove("high");
+            } // this.adddata(0);
             // this.countWarning();
             // this.loadedPetrochemicalJetty = true;
             // this.currentDataTimePetrochemicalJetty = new Date();
+
           }
         } // if (message.JID) {
         // Petrochemical Jetty
@@ -12072,7 +12103,7 @@ const maxH2S = 10;
           message = JSON.parse(message);
 
           if (message.JID == 3) {
-            infowindow2.setContent(`<div class="container2"><div class="ui header">Ammonia Whaft Jetty</div><div class="data">O2 : ${message.O2}</div><div class="data">LEL : ${message.LEL}</div><div class="data end">NH3 : ${message.NH3}</div></div>`); // infowindow2.open(map, marker2);
+            infowindow2.setContent(`<div class="container2"><div class="ui header">Ammonia Whaft Jetty</div><h1 id="2O2" class="data">O2 : ${message.O2}</h1><div id="2LEL" class="data">LEL : ${message.LEL}</div><div id="2NH3" class="data end">NH3 : ${message.NH3}</div></div>`); // infowindow2.open(map, marker2);
             // const data = {
             //   indexStation: 1,
             //   indexSensor: 3,
@@ -12083,11 +12114,33 @@ const maxH2S = 10;
 
             this.check(1, 0, message.O2, maxO2);
             this.check(1, 1, message.LEL, maxLEL);
-            this.check(1, 2, message.NH3, maxNH3); // this.insertCurrentArray(data);
+            this.check(1, 2, message.NH3, maxNH3);
+            let a = document.getElementById("2O2");
+            let b = document.getElementById("2LEL");
+            let c = document.getElementById("2NH3");
+
+            if (this.sensors[1].sensorData[0].isHigh == true) {
+              a.classList.add("high");
+            } else {
+              a.classList.remove("high");
+            }
+
+            if (this.sensors[1].sensorData[1].isHigh == true) {
+              b.classList.add("high");
+            } else {
+              b.classList.remove("high");
+            }
+
+            if (this.sensors[1].sensorData[2].isHigh == true) {
+              c.classList.add("high");
+            } else {
+              c.classList.remove("high");
+            } // this.insertCurrentArray(data);
             // this.adddata(1);
             // this.countWarning();
             // this.loadedWhaftJetty = true;
             // this.currentDataTimeWhaftJetty = new Date();
+
           }
         } // MP10 Jetty
 
@@ -12108,17 +12161,39 @@ const maxH2S = 10;
             //   content: `<div class="container3"><div class="ui2 header">OBB Jetty</div><div class="data">O2 : ${message.O2}</div><div class="data">LEL : ${message.LEL}</div><div class="data end">VOC : ${message.VOC}</div></div>`,
             //   pixelOffset: new google.maps.Size(125, 90),
             // });
-            infowindow3.setContent(`<div class="container3"><div class="ui2 header">OBB Jetty</div><div class="data">O2 : ${message.O2}</div><div class="data">LEL : ${message.LEL}</div><div class="data end">VOC : ${message.VOC}</div></div>`); // infowindow3.open(map, marker3);
+            infowindow3.setContent(`<div class="container3"><div class="ui2 header">OBB Jetty</div><div id="3O2" class="data">O2 : ${message.O2}</div><div id="3LEL" class="data">LEL : ${message.LEL}</div><div  id="3VOC" class="data end">VOC : ${message.VOC}</div></div>`); // infowindow3.open(map, marker3);
 
             this.checkWarningRemarks(2); // this.getMQTTData(data);
 
             this.check(2, 0, message.O2, maxO2);
             this.check(2, 1, message.LEL, maxLEL);
-            this.check(2, 2, message.VOC, maxVOC); // this.insertCurrentArray(data);
+            this.check(2, 2, message.VOC, maxVOC);
+            let a = document.getElementById("3O2");
+            let b = document.getElementById("3LEL");
+            let c = document.getElementById("3VOC");
+
+            if (this.sensors[2].sensorData[0].isHigh == true) {
+              a.classList.add("high");
+            } else {
+              a.classList.remove("high");
+            }
+
+            if (this.sensors[2].sensorData[1].isHigh == true) {
+              b.classList.add("high");
+            } else {
+              b.classList.remove("high");
+            }
+
+            if (this.sensors[2].sensorData[2].isHigh == true) {
+              c.classList.add("high");
+            } else {
+              c.classList.remove("high");
+            } // this.insertCurrentArray(data);
             // this.adddata(2);
             // this.countWarning();
             // this.loadedMP10Jetty = true;
             // this.currentDataTimeMP10Jetty = new Date();
+
           }
         } // DG Yard
 
@@ -12132,7 +12207,7 @@ const maxH2S = 10;
               indexSensor: 6,
               data: [message.O2, message.LEL, message.VOC, message.NH3, message.CL2, message.H2S]
             };
-            infowindow4.setContent(`<div class="container4"><div class="ui4 header">DG yard</div><div class="data">O2 : ${message.O2}</div><div class="data">LEL : ${message.LEL}</div><div class="data">VOC : ${message.VOC}</div><div class="data">NH3 : ${message.NH3}</div><div class="data">CL2 : ${message.CL2}</div><div class="data end">H2S : ${message.H2S}</div></div>`);
+            infowindow4.setContent(`<div class="container4"><div class="ui4 header">DG yard</div><div id="4O2" class="data">O2 : ${message.O2}</div><div id="4LEL" class="data">LEL : ${message.LEL}</div><div id="4VOC" class="data">VOC : ${message.VOC}</div><div id="4NH3" class="data">NH3 : ${message.NH3}</div><div id="4CL2" class="data">CL2 : ${message.CL2}</div><div id="4H2S" class="data end">H2S : ${message.H2S}</div></div>`);
             this.checkWarningRemarks(3); // this.getMQTTData(data);
 
             this.check(3, 0, message.O2, maxO2);
@@ -12140,11 +12215,54 @@ const maxH2S = 10;
             this.check(3, 2, message.VOC, maxVOC);
             this.check(3, 3, message.NH3, maxNH3);
             this.check(3, 4, message.CL2, maxCL2);
-            this.check(3, 5, message.H2S, maxH2S); // this.insertCurrentArray(data);
+            this.check(3, 5, message.H2S, maxH2S);
+            let a = document.getElementById("4O2");
+            let b = document.getElementById("4LEL");
+            let c = document.getElementById("4VOC");
+            let d = document.getElementById("4NH3");
+            let e = document.getElementById("4CL2");
+            let f = document.getElementById("4H2S");
+
+            if (this.sensors[3].sensorData[0].isHigh == true) {
+              a.classList.add("high");
+            } else {
+              a.classList.remove("high");
+            }
+
+            if (this.sensors[3].sensorData[1].isHigh == true) {
+              b.classList.add("high");
+            } else {
+              b.classList.remove("high");
+            }
+
+            if (this.sensors[3].sensorData[2].isHigh == true) {
+              c.classList.add("high");
+            } else {
+              c.classList.remove("high");
+            }
+
+            if (this.sensors[3].sensorData[3].isHigh == true) {
+              d.classList.add("high");
+            } else {
+              d.classList.remove("high");
+            }
+
+            if (this.sensors[3].sensorData[4].isHigh == true) {
+              e.classList.add("high");
+            } else {
+              e.classList.remove("high");
+            }
+
+            if (this.sensors[3].sensorData[5].isHigh == true) {
+              f.classList.add("high");
+            } else {
+              f.classList.remove("high");
+            } // this.insertCurrentArray(data);
             // this.adddata(3);
             // this.countWarning();
             // this.loadedDGYard = true;
             // this.currentDataTimeDGYard = new Date();
+
           }
         } // }
         // if (message.LNG_ID) {
@@ -12156,7 +12274,8 @@ const maxH2S = 10;
 
           this.lel1 = message;
           this.lel12 = message;
-          this.checkLNG(); // if (message) {
+          this.checkLNG();
+          this.checkLNGYard(4, 0, message, maxLEL); // if (message) {
           // const data = {
           //   indexStation: 4,
           //   indexSensor: 0,
@@ -12164,15 +12283,42 @@ const maxH2S = 10;
           // };
           // this.lel1 = message;
 
-          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : ${this.lel1}</div><div class="data">LEL 2 : ${this.lel2}</div><div class="data">LEL 3 : ${this.lel3}</div><div class="data">LEL 4 : ${this.lel4}</div><div class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.checkWarningRemarks(4);
-          // this.getMQTTDataLNG(data);
-          // this.check(4, 0, message.LEL, maxLEL);
-          // this.insertCurrentArrayLNG(data);
-          // this.adddata(4);
-          // this.countWarning();
-          // this.loadedLNG = true;
-          // this.currentDataTimeLNG = new Date();
-          // }
+          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div id="5LEL1" class="data">LEL 1 : ${this.lel1}</div><div id="5LEL2" class="data">LEL 2 : ${this.lel2}</div><div id="5LEL3" class="data">LEL 3 : ${this.lel3}</div><div id="5LEL4" class="data">LEL 4 : ${this.lel4}</div><div id="5LEL5" class="data end">LEL 5 : ${this.lel5}</div></div>`);
+          let a = document.getElementById("5LEL1");
+          let b = document.getElementById("5LEL2");
+          let c = document.getElementById("5LEL3");
+          let d = document.getElementById("5LEL4");
+          let e = document.getElementById("5LEL5");
+
+          if (this.sensors[4].sensorData[0].isHigh == true) {
+            a.classList.add("high");
+          } else {
+            a.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[1].isHigh == true) {
+            b.classList.add("high");
+          } else {
+            b.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[2].isHigh == true) {
+            c.classList.add("high");
+          } else {
+            c.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[3].isHigh == true) {
+            d.classList.add("high");
+          } else {
+            d.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[4].isHigh == true) {
+            e.classList.add("high");
+          } else {
+            e.classList.remove("high");
+          }
         } // LNG_ID 2
 
 
@@ -12186,15 +12332,52 @@ const maxH2S = 10;
             indexSensor: 1,
             data: message.LEL
           };
-          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : ${this.lel1}</div><div class="data">LEL 2 : ${this.lel2}</div><div class="data">LEL 3 : ${this.lel3}</div><div class="data">LEL 4 : ${this.lel4}</div><div class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
+          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div id="5LEL1" class="data">LEL 1 : ${this.lel1}</div><div id="5LEL2" class="data">LEL 2 : ${this.lel2}</div><div id="5LEL3" class="data">LEL 3 : ${this.lel3}</div><div id="5LEL4" class="data">LEL 4 : ${this.lel4}</div><div id="5LEL5" class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
 
-          this.checkLNG(); // this.check(4, 1, message.LEL, maxLEL);
+          this.checkLNG();
+          this.checkLNGYard(4, 1, message, maxLEL); // this.check(4, 1, message.LEL, maxLEL);
           // this.insertCurrentArrayLNG(data);
           // this.adddata(5);
           // this.countWarning();
           // this.loadedLNG = true;
           // this.currentDataTimeLNG = new Date();
           // }
+
+          let a = document.getElementById("5LEL1");
+          let b = document.getElementById("5LEL2");
+          let c = document.getElementById("5LEL3");
+          let d = document.getElementById("5LEL4");
+          let e = document.getElementById("5LEL5");
+
+          if (this.sensors[4].sensorData[0].isHigh == true) {
+            a.classList.add("high");
+          } else {
+            a.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[1].isHigh == true) {
+            b.classList.add("high");
+          } else {
+            b.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[2].isHigh == true) {
+            c.classList.add("high");
+          } else {
+            c.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[3].isHigh == true) {
+            d.classList.add("high");
+          } else {
+            d.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[4].isHigh == true) {
+            e.classList.add("high");
+          } else {
+            e.classList.remove("high");
+          }
         } // LNG_ID 3
 
 
@@ -12208,15 +12391,52 @@ const maxH2S = 10;
             indexSensor: 2,
             data: message.LEL
           };
-          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : ${this.lel1}</div><div class="data">LEL 2 : ${this.lel2}</div><div class="data">LEL 3 : ${this.lel3}</div><div class="data">LEL 4 : ${this.lel4}</div><div class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
+          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div id="5LEL1" class="data">LEL 1 : ${this.lel1}</div><div id="5LEL2" class="data">LEL 2 : ${this.lel2}</div><div id="5LEL3" class="data">LEL 3 : ${this.lel3}</div><div id="5LEL4" class="data">LEL 4 : ${this.lel4}</div><div id="5LEL5" class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
 
-          this.checkLNG(); // this.check(4, 2, message.LEL, maxLEL);
+          this.checkLNG();
+          this.checkLNGYard(4, 2, message, maxLEL); // this.check(4, 2, message.LEL, maxLEL);
           // this.insertCurrentArrayLNG(data);
           // this.adddata(6);
           // this.countWarning();
           // this.loadedLNG = true;
           // this.currentDataTimeLNG = new Date();
           // }
+
+          let a = document.getElementById("5LEL1");
+          let b = document.getElementById("5LEL2");
+          let c = document.getElementById("5LEL3");
+          let d = document.getElementById("5LEL4");
+          let e = document.getElementById("5LEL5");
+
+          if (this.sensors[4].sensorData[0].isHigh == true) {
+            a.classList.add("high");
+          } else {
+            a.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[1].isHigh == true) {
+            b.classList.add("high");
+          } else {
+            b.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[2].isHigh == true) {
+            c.classList.add("high");
+          } else {
+            c.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[3].isHigh == true) {
+            d.classList.add("high");
+          } else {
+            d.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[4].isHigh == true) {
+            e.classList.add("high");
+          } else {
+            e.classList.remove("high");
+          }
         } // LNG_ID 4
 
 
@@ -12231,15 +12451,52 @@ const maxH2S = 10;
           };
           this.lel4 = message;
           this.lel42 = message;
-          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : ${this.lel1}</div><div class="data">LEL 2 : ${this.lel2}</div><div class="data">LEL 3 : ${this.lel3}</div><div class="data">LEL 4 : ${this.lel4}</div><div class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
+          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div id="5LEL1" class="data">LEL 1 : ${this.lel1}</div><div id="5LEL2" class="data">LEL 2 : ${this.lel2}</div><div id="5LEL3" class="data">LEL 3 : ${this.lel3}</div><div id="5LEL4" class="data">LEL 4 : ${this.lel4}</div><div id="5LEL5" class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
 
-          this.checkLNG(); // this.check(4, 3, message.LEL, maxLEL);
+          this.checkLNG();
+          this.checkLNGYard(4, 3, message, maxLEL); // this.check(4, 3, message.LEL, maxLEL);
           // this.insertCurrentArrayLNG(data);
           // this.adddata(7);
           // this.countWarning();
           // this.loadedLNG = true;
           // this.currentDataTimeLNG = new Date();
           // }
+
+          let a = document.getElementById("5LEL1");
+          let b = document.getElementById("5LEL2");
+          let c = document.getElementById("5LEL3");
+          let d = document.getElementById("5LEL4");
+          let e = document.getElementById("5LEL5");
+
+          if (this.sensors[4].sensorData[0].isHigh == true) {
+            a.classList.add("high");
+          } else {
+            a.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[1].isHigh == true) {
+            b.classList.add("high");
+          } else {
+            b.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[2].isHigh == true) {
+            c.classList.add("high");
+          } else {
+            c.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[3].isHigh == true) {
+            d.classList.add("high");
+          } else {
+            d.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[4].isHigh == true) {
+            e.classList.add("high");
+          } else {
+            e.classList.remove("high");
+          }
         } // LNG_ID 5
 
 
@@ -12253,15 +12510,52 @@ const maxH2S = 10;
           };
           this.lel5 = message;
           this.lel52 = message;
-          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div class="data">LEL 1 : ${this.lel1}</div><div class="data">LEL 2 : ${this.lel2}</div><div class="data">LEL 3 : ${this.lel3}</div><div class="data">LEL 4 : ${this.lel4}</div><div class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
+          infowindow5.setContent(`<div class="container5"><div class="ui header">LNG ISO Tank Yard</div><div id="5LEL1" class="data">LEL 1 : ${this.lel1}</div><div id="5LEL2" class="data">LEL 2 : ${this.lel2}</div><div id="5LEL3" class="data">LEL 3 : ${this.lel3}</div><div id="5LEL4" class="data">LEL 4 : ${this.lel4}</div><div id="5LEL5" class="data end">LEL 5 : ${this.lel5}</div></div>`); // this.getMQTTDataLNG(data);
 
-          this.checkLNG(); // this.check(4, 4, message.LEL, maxLEL);
+          this.checkLNG();
+          this.checkLNGYard(4, 4, message, maxLEL); // this.check(4, 4, message.LEL, maxLEL);
           // this.insertCurrentArrayLNG(data);
           // this.adddata(8);
           // this.countWarning();
           // this.loadedLNG = true;
           // this.currentDataTimeLNG = new Date();
           // }
+
+          let a = document.getElementById("5LEL1");
+          let b = document.getElementById("5LEL2");
+          let c = document.getElementById("5LEL3");
+          let d = document.getElementById("5LEL4");
+          let e = document.getElementById("5LEL5");
+
+          if (this.sensors[4].sensorData[0].isHigh == true) {
+            a.classList.add("high");
+          } else {
+            a.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[1].isHigh == true) {
+            b.classList.add("high");
+          } else {
+            b.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[2].isHigh == true) {
+            c.classList.add("high");
+          } else {
+            c.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[3].isHigh == true) {
+            d.classList.add("high");
+          } else {
+            d.classList.remove("high");
+          }
+
+          if (this.sensors[4].sensorData[4].isHigh == true) {
+            e.classList.add("high");
+          } else {
+            e.classList.remove("high");
+          }
         } // this.adddata(4);
         // this.countWarning();
         // this.loadedLNG = true;
@@ -12306,6 +12600,7 @@ const maxH2S = 10;
 
     ...Object(external_vuex_["mapMutations"])({
       checkWarning: "checkWarning",
+      checkWarningLNG: "checkWarningLNG",
       checkWarningRemarks: "checkWarningRemarks",
       checkLNGWarning: "checkLNGWarning"
     })
@@ -12314,8 +12609,12 @@ const maxH2S = 10;
   async mounted() {
     this.createConnection();
     this.doSubscribe();
-  }
+  },
 
+  computed: { ...Object(external_vuex_["mapState"])({
+      sensors: state => state.stations
+    })
+  }
 });
 // CONCATENATED MODULE: ./components/Maps3.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_Maps3vue_type_script_lang_js_ = (Maps3vue_type_script_lang_js_); 
